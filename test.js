@@ -1,3 +1,5 @@
-const uuid = require('uuid');
-let v = uuid.v4()
-console.log(v)
+let t = "abc"
+
+let str = `This is the ${t}`
+
+console.log(str)
